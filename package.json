@@ -1,0 +1,27 @@
+{
+  "name": "fungraph",
+  "version": "1.0.0",
+  "description": "'practice graphql app'",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jradtkey/funGraph.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jradtkey/funGraph/issues"
+  },
+  "homepage": "https://github.com/jradtkey/funGraph#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.1",
+    "node-fetch": "^2.0.0",
+    "xml2js": "^0.4.19"
+  }
+}
