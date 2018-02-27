@@ -5,8 +5,6 @@ const graphqlHTTP = require('express-graphql');
 
 const schema = require('./schema');
 
-console.log(schema);
-
 app.use('/graphql', graphqlHTTP({
   schema,
   graphiql: true
